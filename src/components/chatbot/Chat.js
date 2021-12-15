@@ -39,7 +39,7 @@ const Chat = () => {
   };
 
   return (
-    <div className='shadow-xl mx-6 md:mx-14 h-96 md:h-2/3 rounded-3xl relative'>
+    <div className='relative shadow-xl mx-6 md:mx-14 h-96 md:h-2/3 rounded-xl '>
       <Messages msgs={msgs} submitted={submitted} />
       <div className='flex absolute bottom-0 px-3 md:px-6 pb-10 w-full items-center bg-white'>
         <form

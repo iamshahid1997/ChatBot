@@ -16,7 +16,7 @@ const Messages = ({ msgs, submitted }) => {
   if (!submitted) {
     return (
       <div className='mt-16 px-10 md:overflow-y-auto h-72 md:h-72'>
-        <p className='flex justify-center  font-bold text-xl text-gray-600'>
+        <p className='flex justify-center  font-bold text-xl text-gray-600 mt-8'>
           You can ask your queries here!
         </p>
       </div>
